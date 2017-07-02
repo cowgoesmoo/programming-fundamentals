@@ -1,0 +1,21 @@
+package PROG.pracitcal6;
+
+import javax.swing.JOptionPane;
+/**
+ *
+ * @author cowgoesmoo
+ */
+public class prac6qn1 {
+    static void printtable(int x) {
+        String y = "";
+        for (int i = 1; i <= 12; i++) {
+            y += x + " x " + i + " = " + i * x + "\n";
+            
+        }
+        JOptionPane.showMessageDialog(null, y);
+    }
+    
+    public static void main(String[] args) {
+        printtable(5);
+    }
+}
