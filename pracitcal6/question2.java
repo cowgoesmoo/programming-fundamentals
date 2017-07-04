@@ -35,7 +35,10 @@ public class question2 {
     
     public static void main(String[] args) {
         printPrize(Integer.parseInt(getInput()));
-        
+        //getInput() returns String
+        //Integer.parseInt(getInput()) changes the String to an integer.
+        //printPrize takes in integer, checks result and prints output.
+        //print does not mean return
     }
     
 }
